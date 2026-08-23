@@ -8,7 +8,7 @@
 
 A low-voltage **Direct-On-Line (DOL) motor control panel** designed using **QElectroTech**. The project covers the electrical power and control schematic along with a basic panel General Arrangement (GA) showing the physical placement of protection, switching, terminal, and operator-interface components.
 
-The project was developed as an undergraduate electrical design project to understand the complete relationship between an electrical schematic and the physical arrangement of components inside an LV motor control panel.
+The project was developed as an undergraduate electrical design project to understand the relationship between an electrical schematic and the physical arrangement of components inside an LV motor control panel.
 
 ---
 
@@ -17,10 +17,12 @@ The project was developed as an undergraduate electrical design project to under
 - [Overview](#overview)
 - [Electrical Schematic](#electrical-schematic)
 - [Panel General Arrangement](#panel-general-arrangement)
-- [Design Details](#design-details)
+- [Electrical Specifications](#electrical-specifications)
 - [Component Functions](#component-functions)
+- [Control Logic](#control-logic)
+- [Panel Design](#panel-design)
 - [Design Workflow](#design-workflow)
-- [Project Files](#project-files)
+- [QElectroTech Features Used](#qelectrotech-features-used)
 - [Learning Outcomes](#learning-outcomes)
 
 ---
@@ -31,18 +33,18 @@ The project is based on a **415 V, 3-phase, 50 Hz supply** feeding a **7.5 kW, 3
 
 The design consists of two main deliverables:
 
-1. **Electrical schematic** — power circuit and control circuit for the DOL starter
+1. **Electrical schematic** — power and control circuit for the DOL motor starter
 2. **Panel General Arrangement** — physical arrangement of components inside the enclosure and controls mounted on the panel door
 
-The design includes basic motor protection, contactor-based switching, thermal overload protection, emergency-stop functionality, operator controls, status indication, terminal blocks, DIN rails, wiring duct, and a protective-earth bar.
+The design includes motor feeder protection, control-circuit protection, contactor-based switching, thermal overload protection, emergency-stop functionality, operator controls, status indication, phase-presence indication, terminal blocks, DIN rails, wiring duct, and a protective-earth bar.
 
 ---
 
 ## Electrical Schematic
 
-The electrical schematic represents both the **power circuit** and **control circuit** of the motor starter.
+The electrical schematic represents both the **power circuit** and **control circuit** of the DOL motor starter.
 
-![Electrical Schematic](PASTE_YOUR_SCHEMATIC_IMAGE_LINK_HERE)
+![Electrical Schematic](schematic.png)
 
 ### Power Circuit
 
