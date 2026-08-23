@@ -35,11 +35,19 @@ component arrangement**.
 
 ---
 
-# 2. Electrical Schematic
+## Schematic
 
-The electrical schematic represents the power and control circuitry of
-the DOL motor starter.
-![LV Motor Control Schematic](Screenshot 2026-08-23 171138.png)
+The schematic shows the complete electrical and control circuit for the LV motor control panel, including incoming protection, motor protection, contactor control, overload protection, indication lamps, start/stop controls and emergency stop.
+
+![LV Motor Control Schematic](schematic.png)
+
+---
+
+## Panel Layout
+
+The panel layout shows the physical arrangement of the main components inside the enclosure, including DIN rails, protective devices, contactor, overload relay, terminal blocks, wiring duct, PE bar and door-mounted controls and indicators.
+
+![LV Motor Control Panel Layout](panel_layout.png)
 
 ## Power Circuit
 
