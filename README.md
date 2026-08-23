@@ -189,7 +189,7 @@ S0 — EMERGENCY STOP
 Bill of Materials
 
 The following project-level Bill of Materials identifies the major components represented in the schematic and panel layout.
-
+```
 No.	Tag	Component	                      Qty.
 1	QF1	Main Protective Device	               1
 2	QF2	Control Circuit MCB	               1
@@ -212,3 +212,4 @@ No.	Tag	Component	                      Qty.
 19	-	PE Bar                           	1
 20	-	Panel Enclosure	                        1
 
+```
