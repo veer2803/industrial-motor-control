@@ -1,69 +1,68 @@
 # LV DOL Motor Control Panel Design
 
-![Tool](https://img.shields.io/badge/Tool-QElectroTech-1F6FEB)
-![Application](https://img.shields.io/badge/Application-LV%20Motor%20Control-informational)
-![Supply](https://img.shields.io/badge/Supply-415V%203--Phase-FF6600)
-![Motor](https://img.shields.io/badge/Motor-7.5%20kW%20Induction%20Motor-success)
-![Design](https://img.shields.io/badge/Design-DOL%20Starter-blue)
+![Tool](https://img.shields.io/badge/Tool-QElectroTech-blue)
+![Application](https://img.shields.io/badge/Application-LV%20Motor%20Control-orange)
+![System](https://img.shields.io/badge/System-DOL%20Motor%20Starter-green)
+![Power](https://img.shields.io/badge/Power-415V%203--Phase-lightgrey)
 
-A low-voltage **Direct-On-Line (DOL) motor control panel** designed using **QElectroTech**. The project covers the electrical power and control schematic along with a basic panel General Arrangement (GA) showing the physical placement of protection, switching, terminal, and operator-interface components.
+A low-voltage **Direct-On-Line (DOL) motor control panel** designed using
+**QElectroTech**.
 
-The project was developed as an undergraduate electrical design project to understand the relationship between an electrical schematic and the physical arrangement of components inside an LV motor control panel.
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Electrical Schematic](#electrical-schematic)
-- [Panel General Arrangement](#panel-general-arrangement)
-- [Electrical Specifications](#electrical-specifications)
-- [Component Functions](#component-functions)
-- [Control Logic](#control-logic)
-- [Panel Design](#panel-design)
-- [Design Workflow](#design-workflow)
-- [QElectroTech Features Used](#qelectrotech-features-used)
-- [Learning Outcomes](#learning-outcomes)
+The project demonstrates the complete basic electrical design workflow from
+power and control schematic development to physical panel layout,
+component identification, and Bill of Materials preparation.
 
 ---
 
-## Overview
+# 1. Overview
 
-The project is based on a **415 V, 3-phase, 50 Hz supply** feeding a **7.5 kW, 3-phase induction motor** through a Direct-On-Line starting arrangement.
+This project represents a **415 V, 3-phase, 50 Hz motor control panel**
+used to operate a **7.5 kW three-phase induction motor** using a
+Direct-On-Line starting method.
 
-The design consists of two main deliverables:
+The project consists of:
 
-1. **Electrical schematic** — power and control circuit for the DOL motor starter
-2. **Panel General Arrangement** — physical arrangement of components inside the enclosure and controls mounted on the panel door
+- Electrical power schematic
+- Electrical control schematic
+- Panel General Arrangement
+- Component identification
+- Bill of Materials
+- Protection and control logic
 
-The design includes motor feeder protection, control-circuit protection, contactor-based switching, thermal overload protection, emergency-stop functionality, operator controls, status indication, phase-presence indication, terminal blocks, DIN rails, wiring duct, and a protective-earth bar.
+The objective was to develop practical understanding of **LV electrical
+panel design, motor protection, control circuits, electrical CAD and panel
+component arrangement**.
 
 ---
 
-## Electrical Schematic
+# 2. Electrical Schematic
 
-The electrical schematic represents both the **power circuit** and **control circuit** of the DOL motor starter.
+The electrical schematic represents the power and control circuitry of
+the DOL motor starter.
 
-![Electrical Schematic](schematic.png)
+## Power Circuit
 
-### Power Circuit
-
-The motor power path is arranged as:
+The main power path is:
 
 ```text
 415 V 3-Phase Supply
-        ↓
-      QF1
+        |
+        v
+       QF1
 Main Protection
-        ↓
-      QF3
-Motor Feeder Protection
-        ↓
-      KM1
+        |
+        v
+       QF3
+Motor Protection
+        |
+        v
+       KM1
 Magnetic Contactor
-        ↓
-      FR1
-Thermal Overload Relay
-        ↓
+        |
+        v
+       FR1
+Thermal Overload
+        |
+        v
        M1
 7.5 kW Induction Motor
