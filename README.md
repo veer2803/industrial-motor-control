@@ -35,7 +35,6 @@ component arrangement**.
 
 ---
 
-## Schematic
 
 ## Schematic
 
