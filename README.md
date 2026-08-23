@@ -37,17 +37,19 @@ component arrangement**.
 
 ## Schematic
 
-The schematic shows the complete electrical and control circuit for the LV motor control panel, including incoming protection, motor protection, contactor control, overload protection, indication lamps, start/stop controls and emergency stop.
+## Schematic
 
-![LV Motor Control Schematic](schematic.png)
+The schematic shows the complete LV motor control circuit, including incoming protection, motor protection, contactor control, overload protection, indication lamps, start/stop controls and emergency stop.
+
+![LV Motor Control Schematic](Screenshot%202026-08-23%20171138.png)
 
 ---
 
 ## Panel Layout
 
-The panel layout shows the physical arrangement of the main components inside the enclosure, including DIN rails, protective devices, contactor, overload relay, terminal blocks, wiring duct, PE bar and door-mounted controls and indicators.
+The panel layout shows the physical arrangement of the electrical components, DIN rails, terminal blocks, wiring duct, PE bar and door-mounted controls and indicators.
 
-![LV Motor Control Panel Layout](panel_layout.png)
+![LV Motor Control Panel Layout](Screenshot%202026-08-23%20171151.png)
 
 ## Power Circuit
 
