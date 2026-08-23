@@ -39,6 +39,7 @@ component arrangement**.
 
 The electrical schematic represents the power and control circuitry of
 the DOL motor starter.
+![LV Motor Control Schematic](Screenshot 2026-08-23 171138.png)
 
 ## Power Circuit
 
